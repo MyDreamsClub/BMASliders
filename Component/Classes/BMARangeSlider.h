@@ -62,7 +62,7 @@
 
 @end
 
-IB_DESIGNABLE
+
 @interface BMARangeSlider : UIControl <BMARangeSlider>
 
 @property (nonatomic) id<BMASliderStyling> style UI_APPEARANCE_SELECTOR;  // Default is BMASliderLiveRenderingStyle

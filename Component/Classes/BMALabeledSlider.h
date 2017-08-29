@@ -28,7 +28,7 @@
 #import "BMALabeledSliderConfiguring.h"
 #import "BMASliderReusableXibControl.h"
 
-IB_DESIGNABLE
+
 @interface BMALabeledSlider : BMASliderReusableXibControl <BMASlider, BMALabeledSliderConfiguring>
 
 #pragma mark - BMASlider
