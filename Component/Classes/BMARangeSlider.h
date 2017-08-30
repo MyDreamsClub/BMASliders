@@ -72,6 +72,7 @@
 @property (nonatomic) IBInspectable CGFloat currentUpperValue;
 @property (nonatomic) IBInspectable CGFloat step;
 @property (nonatomic) IBInspectable CGFloat minimumDistance;
+@property (nonatomic) IBInspectable CGFloat handlerCenterYOffset;
 @property (nonatomic, getter=isContinuous) IBInspectable BOOL continuous;
 
 @end

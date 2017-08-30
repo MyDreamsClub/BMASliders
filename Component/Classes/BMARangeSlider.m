@@ -93,11 +93,13 @@ typedef NS_ENUM(NSUInteger, BMARangeSliderHandler) {
     self.backgroundColor = [UIColor clearColor];
     CGPoint center = CGPointMake(self.bounds.size.width / 2., self.bounds.size.height / 2.);
 
+    CGPoint handlerCenter = CGPointMake(center.x, center.y - _handlerCenterYOffset);
+    
     _lowerHandler = [[UIImageView alloc] init];
-    _lowerHandler.center = center;
+    _lowerHandler.center = handlerCenter;
 
     _upperHandler = [[UIImageView alloc] init];
-    _upperHandler.center = center;
+    _upperHandler.center = handlerCenter;
 
     _backgroundRangeImageView = [[UIImageView alloc] init];
     [self updateView:_backgroundRangeImageView frameChange:^(CGRect *frame) {
