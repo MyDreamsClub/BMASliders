@@ -36,6 +36,7 @@
 @property (nonatomic) CGFloat currentUpperValue;
 
 @property (nonatomic) CGFloat minimumDistance;
+@property (nonatomic) CGFloat handlerCenterYOffset;
 
 /**
  *  if YES, indicates the user is (significantly) touching beyond the maximumValue
